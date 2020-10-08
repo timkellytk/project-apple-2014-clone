@@ -1,0 +1,11 @@
+@import 'variables.scss';
+
+.hero {
+  height: 540px;
+  color: white;
+  background-image: url('../assets/hero-image.jpg');
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';

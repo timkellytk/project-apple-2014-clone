@@ -1,0 +1,22 @@
+{
+  "name": "project-apple-2014-clone",
+  "version": "1.0.0",
+  "description": "> From The Odin Project's [curriculum](https://www.theodinproject.com/courses/html-and-css/lessons/building-with-backgrounds-and-gradients)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkellytk/project-apple-2014-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkellytk/project-apple-2014-clone/issues"
+  },
+  "homepage": "https://github.com/timkellytk/project-apple-2014-clone",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
