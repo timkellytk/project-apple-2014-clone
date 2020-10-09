@@ -19,9 +19,9 @@
     <header class="Hero">
       <div class="container">
         <nav class="py-5">
-          <ul class="Navbar">
+          <ul class="Navbar overflow-hidden">
             <li class="Navbar__link">
-              <img src="assets/logo.png" height="16px" />
+              <img src="assets/logo.png" height="20px" />
             </li>
             <li class="Navbar__link">Store</li>
             <li class="Navbar__link">Mac</li>
@@ -30,10 +30,19 @@
             <li class="Navbar__link">iPad</li>
             <li class="Navbar__link">iTunes</li>
             <li class="Navbar__link">Support</li>
-            <li class="Navbar__link">Search</li>
+            <li class="Navbar__link Navbar__link--last Navbar__link--search">
+              <div class="Navbar__search">
+                <input class="Navbar__search-input" type="search" />
+                <img
+                  class="Navbar__search-icon"
+                  src="assets/search-icon.png"
+                  height="12px"
+                />
+              </div>
+            </li>
           </ul>
         </nav>
-        <div style="margin: 0 15%">
+        <div class="Hero__text">
           <h1 class="display-3 text-center" style="font-weight: 100">
             What will your verse be?
           </h1>
