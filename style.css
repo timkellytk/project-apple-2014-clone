@@ -1,5 +1,3 @@
-$border-radius: 5px;
-
 html {
   font-family: 'Open Sans', sans-serif;
 }
@@ -7,7 +5,7 @@ html {
 .Hero {
   height: 540px;
   color: white;
-  background-image: url(../assets/hero-image.jpg);
+  background-image: url(assets/hero-image.jpg);
   background-size: cover;
   background-position: 50% 100%;
 }
@@ -62,19 +60,19 @@ html {
 }
 
 .Grid__item--1 {
-  background-image: url('../assets/apple-grid-1.jpg');
+  background-image: url('assets/apple-grid-1.jpg');
 }
 
 .Grid__item--2 {
-  background-image: url('../assets/apple-grid-2.jpg');
+  background-image: url('assets/apple-grid-2.jpg');
 }
 
 .Grid__item--3 {
-  background-image: url('../assets/apple-grid-3.jpg');
+  background-image: url('assets/apple-grid-3.jpg');
 }
 
 .Grid__item--4 {
-  background-image: url('../assets/apple-grid-4.jpg');
+  background-image: url('assets/apple-grid-4.jpg');
 }
 
 .Copyright {
@@ -86,5 +84,3 @@ html {
 .Copyright__link {
   color: #489fd5;
 }
-
-@import '../node_modules/bootstrap/scss/bootstrap.scss';

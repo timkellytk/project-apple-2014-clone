@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/timkellytk/project-apple-2014-clone/issues"
   },
-  "homepage": "https://github.com/timkellytk/project-apple-2014-clone",
+  "homepage": "https://github.com/timkellytk/project-apple-2014-clone#readme",
   "dependencies": {
     "bootstrap": "^4.5.2"
   }

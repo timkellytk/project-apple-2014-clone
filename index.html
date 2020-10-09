@@ -1,48 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/output.css" />
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>The Odin Project - Apple 2014 clone</title>
     <meta
       name="description"
       content="The Odin Project - HTML, CSS, SASS and Bootstrap clone of Apple's 2014 homepage"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/output.css" />
   </head>
   <body>
-    <div class="hero">
+    <header class="Hero">
       <div class="container">
-        <nav class="navbar navbar-dark bg-primary">
-          <!-- Navbar content -->
-          <h1>Hello, world!</h1>
-          <button class="btn btn-secondary">Primary</button>
+        <nav class="py-5">
+          <ul class="Navbar">
+            <li class="Navbar__link">
+              <img src="assets/logo.png" height="16px" />
+            </li>
+            <li class="Navbar__link">Store</li>
+            <li class="Navbar__link">Mac</li>
+            <li class="Navbar__link">iPod</li>
+            <li class="Navbar__link">iPhone</li>
+            <li class="Navbar__link">iPad</li>
+            <li class="Navbar__link">iTunes</li>
+            <li class="Navbar__link">Support</li>
+            <li class="Navbar__link">Search</li>
+          </ul>
         </nav>
+        <div style="margin: 0 15%">
+          <h1 class="display-3 text-center" style="font-weight: 100">
+            What will your verse be?
+          </h1>
+          <h2 class="text-center py-2" style="font-weight: 200">
+            Everyone has something to share. See how people are using iPad in
+            their unique ways to add to the world's story
+          </h2>
+          <h3 class="text-center py-3" style="font-weight: 200">
+            Watch the "Your Verse" film and explore the stories
+          </h3>
+        </div>
       </div>
+    </header>
+    <div class="Grid">
+      <div class="Grid__item Grid__item--1"></div>
+      <div class="Grid__item Grid__item--2"></div>
+      <div class="Grid__item Grid__item--3"></div>
+      <div class="Grid__item Grid__item--4"></div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <div class="Copyright container py-4">
+      <p>
+        Shop the
+        <a class="Copyright__link">Apple Online Store</a> (1-800-MY-APPLE),
+        visit an <a class="Copyright__link">Apple Retail Store</a>, or find a
+        <a class="Copyright__link">reseller</a>.
+      </p>
+      <p>
+        This is a project from The Odin Project - Copyright © 2014 Apple Inc.
+        All rights reserved.
+      </p>
+    </div>
   </body>
 </html>
